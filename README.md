@@ -50,7 +50,7 @@ FastAPI ↔ Redis
 ## 1. Clone Repository
 
 ```bash
-git clone <your-github-repo>
+git clone <https://github.com/sivanarasimhulu21/Fastapi-production-deployment.git>
 cd ai-notes-production-app
 ```
 
