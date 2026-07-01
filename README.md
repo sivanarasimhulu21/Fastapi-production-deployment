@@ -33,16 +33,17 @@ A production-style backend deployment project using FastAPI, Docker, PostgreSQL,
 
 # Project Architecture
 
+```text
 Internet
-↓
-NGINX
-↓
-FastAPI App
-↓
-PostgreSQL
+   ↓
+NGINX Reverse Proxy
+   ↓
+FastAPI Application
+   ↓
+PostgreSQL Database
 
-FastAPI ↔ Redis
-
+FastAPI ↔ Redis Cache
+```
 ---
 
 # Run Locally
