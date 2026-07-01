@@ -30,19 +30,20 @@ A production-style backend deployment project using FastAPI, Docker, PostgreSQL,
 - AWS EC2
 
 ---
-
 # Project Architecture
 
 ```text
-Internet
-   ↓
-NGINX Reverse Proxy
-   ↓
-FastAPI Application
-   ↓
-PostgreSQL Database
-
-FastAPI ↔ Redis Cache
+                Internet
+                    │
+                    ▼
+         NGINX Reverse Proxy
+                    │
+                    ▼
+         FastAPI Backend Service
+              │             │
+              ▼             ▼
+       PostgreSQL        Redis
+         Database         Cache
 ```
 ---
 
